@@ -1,4 +1,4 @@
-define([], function($, w) {'use strict'; return function(sb) {return sb.extend({
+define([], function() {'use strict'; return function(sb) {return sb.extend({
 	initialize: function() {
 		this._super();
 		if (this.isNew()) {

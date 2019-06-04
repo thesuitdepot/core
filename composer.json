@@ -1,6 +1,6 @@
 {
 	"name": "thesuitdepot/core"
-	,"version": "1.0.0"
+	,"version": "1.0.1"
 	,"description": "A custom module for thesuitdepot.com"
 	,"type": "magento2-module"
 	,"homepage": "https://github.com/thesuitdepot/core"
