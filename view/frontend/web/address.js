@@ -1,10 +1,10 @@
-define([
-	'df-lodash', 'jquery', 'mage/utils/wrapper'
-], function(_, $, w) {'use strict';
-return function(sb) {
-$.extend(sb, {
-	initialize: w.wrap(sb.initialize, function(_super, d) {
-		return _super();
-	})
-});
-return sb;};});
+define([], function($, w) {'use strict'; return function(sb) {return sb.extend({
+	initialize: function() {
+		this._super();
+		if (this.isNew()) {
+			this.setData('country_id', 'US');
+			this.setData('region', {region: 'Michigan', region_id: 33, region_code: 'MI'});
+		}
+		return this;
+	}
+});};});

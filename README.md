@@ -15,7 +15,6 @@ bin/magento cache:enable
 ## How to upgrade
 ```
 bin/magento maintenance:enable
-rm -rf composer.lock
 composer clear-cache
 composer update thesuitdepot/core
 bin/magento setup:upgrade
