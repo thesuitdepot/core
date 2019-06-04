@@ -1,13 +1,13 @@
-A custom module for [kingpalm.com](https://kingpalm.com).
+A custom module for [thesuitdepot.com](https://thesuitdepot.com).
 
 ## How to install
 ```
 bin/magento maintenance:enable
 composer clear-cache
-composer require kingpalm/core:*
+composer require thesuitdepot/core:*
 bin/magento setup:upgrade
 rm -rf var/di var/generation generated/code && bin/magento setup:di:compile
-rm -rf pub/static/* && bin/magento setup:static-content:deploy -f en_US --area adminhtml --theme Magento/backend && bin/magento setup:static-content:deploy -f en_US --area frontend --theme Magento/kingpalm
+rm -rf pub/static/* && bin/magento setup:static-content:deploy -f en_US --area adminhtml --theme Magento/backend && bin/magento setup:static-content:deploy -f en_US --area frontend --theme Webwolf/suitdepot
 bin/magento maintenance:disable
 bin/magento cache:enable
 ```
@@ -17,10 +17,10 @@ bin/magento cache:enable
 bin/magento maintenance:enable
 rm -rf composer.lock
 composer clear-cache
-composer update kingpalm/core
+composer update thesuitdepot/core
 bin/magento setup:upgrade
 rm -rf var/di var/generation generated/code && bin/magento setup:di:compile
-rm -rf pub/static/* && bin/magento setup:static-content:deploy -f en_US --area adminhtml --theme Magento/backend && bin/magento setup:static-content:deploy -f en_US --area frontend --theme Magento/kingpalm
+rm -rf pub/static/* && bin/magento setup:static-content:deploy -f en_US --area adminhtml --theme Magento/backend && bin/magento setup:static-content:deploy -f en_US --area frontend --theme Webwolf/suitdepot
 bin/magento maintenance:disable
 bin/magento cache:enable
 ```
