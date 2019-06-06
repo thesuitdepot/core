@@ -1,5 +1,4 @@
 A custom module for [thesuitdepot.com](https://thesuitdepot.com).  
-The module prefills the «**Country**» and «**Region**» fields of address forms the [**Magestore POS**](https://www.magestore.com/features/magento-pos) module with the «**United States**» and «**Michigan**» values for new addresses.  
 
 ![](https://mage2.pro/uploads/default/original/2X/f/f2ec1c5bd1048f10a5d8f393985222f406c5ea1d.png)
 
