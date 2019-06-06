@@ -1,3 +1,7 @@
+// 2019-06-04
+// "Magestore POS: prefill the «Country» and «State» fields
+// with the «United States» / «Michigan» values for new customers":
+// https://github.com/thesuitdepot/core/issues/1
 define([], function() {'use strict'; return function(sb) {return sb.extend({
 	initialize: function() {
 		this._super();
