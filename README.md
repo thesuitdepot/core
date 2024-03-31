@@ -1,4 +1,4 @@
-A custom module for [thesuitdepot.com](https://thesuitdepot.com).  
+A custom module for [thesuitdepot.com](https://thesuitdepot.com) (Magento 2).  
 
 ## How to install
 ```
